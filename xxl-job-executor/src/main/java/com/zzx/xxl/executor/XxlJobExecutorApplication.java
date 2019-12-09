@@ -1,18 +1,14 @@
-package com.xxl.job.executor;
+package com.zzx.xxl.executor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-/**
- * @author xuxueli 2018-10-28 00:38:13
- */
 @SpringBootApplication
-@ComponentScan({"com.xxl.job.executor","com.xxl.job.core"})
 public class XxlJobExecutorApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         SpringApplication.run(XxlJobExecutorApplication.class, args);
-	}
+    }
 
 }

@@ -1,4 +1,4 @@
-package com.xxl.job.executor.config;
+package com.zzx.xxl.executor.config;
 
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
 import org.slf4j.Logger;
@@ -7,11 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * xxl-job config
- *
- * @author xuxueli 2017-04-28
- */
+
 @Configuration
 public class XxlJobConfig {
     private Logger logger = LoggerFactory.getLogger(XxlJobConfig.class);
